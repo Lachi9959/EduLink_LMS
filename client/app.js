@@ -124,7 +124,7 @@ function Auth({ onAuth }) {
   async function submit(e) {
     e.preventDefault();
     try {
-      const url = "https://edulink-lms.onrender.com" + (isLogin ? "auth/login" : "auth/register");
+      const url = "http://localhost:5000/api/" + (isLogin ? "auth/login" : "auth/register");
       const res = await axios.post(url, form);
       onAuth(res.data.token);
     } catch (err) {
