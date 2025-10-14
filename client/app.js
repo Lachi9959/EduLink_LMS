@@ -1,6 +1,7 @@
 const { useState, useEffect } = React;
 
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://edulink-lms.onrender.com
+";
 
 function App(){
   const [view, setView] = useState("home");
