@@ -1,10 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './style.css';
-import App from './App';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+// IMPORTANT: Replace this with your live backend URL from Render
+const API_BASE = "https://edulink-lms.onrender.com/api";
 
 
 function App() {
