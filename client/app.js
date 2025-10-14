@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import ReactDOM from 'react-dom/client';
 import axios from 'axios';
 import './style.css';
+
 
 const API_BASE = "https://edulink-lms.onrender.com";
 
