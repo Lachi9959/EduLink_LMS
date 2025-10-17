@@ -4,8 +4,8 @@
 **Goal:** Minimal, human-readable LMS scaffold (Student/Teacher roles) for hackathon submission.
 
 ## Team
-- Team: YourTeamName
-- Members: Member1, Member2
+- Team: Tech Vision
+- Members:4
 
 ## Tech Stack
 - Frontend: React (via CDN + JSX in browser for rapid demo)
